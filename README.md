@@ -1,8 +1,15 @@
-# React + Vite
+# Portfolio infantil de penguin usando React.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+![image](https://github.com/Pedro-Viictor/ilustrativo-portfolio-react/assets/107973648/cfd98410-1952-429a-9245-64c4a63bb718)
+![image](https://github.com/Pedro-Viictor/ilustrativo-portfolio-react/assets/107973648/b57e9c71-83c7-41a0-9922-e4f923edc729)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+# React (Front-end)
+
+Esse site em React foi feito meramente para ilustrar um portfólio de interface "infantil e nada profissional" feito por mim. Isso apenas para pegar afinidade com a tecnologia React.
+
+## Link para visualizar os site (Provavelmente on-line):
+
+Link:
+https://ilustrativo-portfolio.netlify.app/
