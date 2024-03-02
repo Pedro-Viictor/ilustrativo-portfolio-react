@@ -1,0 +1,123 @@
+.trabalhototal {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.trabalhos h1 {
+    font-size: larger;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0px 20px 0px;
+    flex-wrap: wrap;
+    overflow: hidden;
+    gap: 10px;
+}
+
+.projects div {
+    background-color: transparent;
+    border: 2px solid gray;
+    border-radius: 5px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: medium;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    transition: 0.9s;
+}
+
+.projects div a {
+    text-decoration: none;
+}
+
+.projects div a img {
+    width: 90px;
+    height: 90px;
+    transition: transform 0.3s ease-in-out;
+    object-fit: cover;
+}
+
+.projects div a img:hover {
+    transform: scale(1.1);
+}
+
+
+.trabalhos p {
+    font-size: medium;
+}
+
+.trabalhos p a {
+    color: yellow;
+    transition: 0.9s;
+}
+
+.trabalhos p a:hover {
+    color: black;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+    .trabalhos {
+        font-size: xx-large;
+    }
+
+    .projects {
+        flex-direction: row;
+    }
+
+    .projects div {
+        width: 200px;
+        height: 190px;
+    }
+
+    .trabalhos p {
+        font-size: large;
+    }
+
+    .projects div a img {
+        width: 180px;
+        height: 180px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 3000px) {
+    .trabalhos {
+        font-size: xx-large;
+    }
+
+    .projects {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .projects div {
+        width: 220px;
+        height: 220px;
+    }
+
+    .trabalhos p {
+        font-size: x-large;
+    }
+
+    .projects div a img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
+@media (min-width: 3000px) {
+    .projects {
+        justify-content: center;
+    }
+}

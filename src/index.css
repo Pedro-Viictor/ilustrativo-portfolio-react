@@ -1,0 +1,23 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+
+    background: linear-gradient(to right, #000000, #5bb5dc);
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin: 0px 5px 0px 5px;
+    height: 100%;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}

@@ -1,0 +1,82 @@
+.end {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.end div p .insta {
+    color: yellow;
+    transition: 0.9s;
+}
+
+.end div p .insta:hover {
+    color: black;
+}
+
+.end .icons {
+    background-color: transparent;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid white;
+    border-radius: 5px;
+    transition: 0.9s;
+}
+
+.end .icons:hover {
+    border: 2px solid black;
+}
+
+.end #sociallinks {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    padding: 20px 20px 20px 20px;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .end div p .insta {
+        font-size: large;
+    }
+
+    .end div p {
+        font-size: large;
+    }
+
+    .end #sociallinks {
+        padding: 30px 30px 30px 30px;
+    }
+
+    .end .icons img {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 3000px) {
+    .end div p .insta {
+        font-size: x-large;
+    }
+
+    .end div p {
+        font-size: x-large;
+    }
+
+    .end #sociallinks {
+        padding: 50px 50px 50px 50px;
+    }
+
+    .end .icons img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+@media (min-width: 3001px){
+    #sociallinks {
+        justify-content: space-around;
+        align-items: center;
+    }
+}

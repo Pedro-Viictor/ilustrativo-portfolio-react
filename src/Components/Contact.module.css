@@ -1,0 +1,86 @@
+.sessionContact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    margin-top: 100px;
+}
+
+.sessionContact div h1 {
+    font-size: larger;
+}
+
+.sessionContact div p {
+    font-size: medium;
+}
+
+.sessionContact div button {
+    background-color: transparent;
+    border-radius: 8px;
+    font-size: large;
+    cursor: pointer;
+    border: 2px solid #5bb5dc;
+    padding: 10px 20px 10px 20px;
+    transition: 0.9s;
+    margin-top: 10px;
+}
+
+.sessionContact div button a {
+    color: white;
+    text-decoration: none;
+    transition: 0.9s;
+}
+
+.sessionContact div button a:hover {
+    color: white;
+}
+
+.sessionContact div button:hover {
+    background-color: black;
+}
+
+.sessionContact div img {
+    width: 200px;
+    height: auto;
+    border: 1px solid #5bb5dc;
+    border-radius: 50%;
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .sessionContact div {
+        font-size: xx-large;
+    }
+
+    .sessionContact div p {
+        font-size: large;
+    }
+
+    .sessionContact div img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 3000px) {
+    .sessionContact div {
+        font-size: xx-large;
+    }
+
+    .sessionContact div p {
+        font-size: x-large;
+    }
+
+    .sessionContact div img {
+        width: 480px;
+        height: auto;
+    }
+
+    #btn {
+        width: 200px;
+        height: 70px;
+    }
+
+    .sessionContact div button a {
+        font-size: x-large;
+    }
+}
